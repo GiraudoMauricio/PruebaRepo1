@@ -30,7 +30,7 @@ usuario.send_keys("fruxafrauquoppe-8760@yopmail.com")
 usuario.send_keys(Keys.ENTER)
 time.sleep(7)
 
-"""Ingresar la contrasela"""
+"""Ingresar la contraseña"""
 password = driver.find_element(By.XPATH, '/html/body/div[2]/div/div[1]/div/div[2]/div/div/div/div/div/div/form/div[2]/div/label/div/input')
 password.send_keys('123456789Ma')
 time.sleep(2)
